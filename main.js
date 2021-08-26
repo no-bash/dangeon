@@ -2,7 +2,7 @@
 var userAgent = navigator.userAgent || navigator.vendor;
 var url;
 
-if (/ios/i.test(userAgent))
+if (!/android/i.test(userAgent))
 {
     url = 'https://apps.apple.com/us/app/dungeon-crusher-afk-heroes/id1465892600'
     
