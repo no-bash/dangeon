@@ -2,7 +2,7 @@
 var userAgent = navigator.userAgent || navigator.vendor;
 var url;
 
-if (!(/android/i.test(userAgent)))
+if (!(/Android/i.test(userAgent)))
 {
     url = 'https://apps.apple.com/us/app/dungeon-crusher-afk-heroes/id1465892600'
     
@@ -19,4 +19,4 @@ storeBtn.addEventListener('click', ()=>{
 })
 
 let test = document.getElementById("test")
-test.innerHTML = userAgent
+test.innerHTML = `${userAgent}/br${!(/Android/i.test(userAgent))}`
