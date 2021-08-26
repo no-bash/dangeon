@@ -1,3 +1,7 @@
+#test {
+    color: red;
+}
+
 @font-face {
     font-family: Susan;
     src: url("font/SSN75.otf") format("opentype");
