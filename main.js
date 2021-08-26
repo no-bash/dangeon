@@ -19,4 +19,4 @@ storeBtn.addEventListener('click', ()=>{
 })
 
 let test = document.getElementById("test")
-test.innerHTML = `${userAgent}/br${!(/Android/i.test(userAgent))}`
+
