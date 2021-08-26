@@ -11,12 +11,13 @@ else
 {
     url = 'https://play.google.com/store/apps/details?id=com.towardsmars.dungeoncrusher'
 }
-console.log(userAgent);
+
 
 let storeBtn = document.getElementById("store-btn")
-storeBtn.addEventListener('click', ()=>{
+storeBtn.addEventListener('pointerup', ()=>{
     window.location.href = url
+    console.log(url);
 })
 
-let test = document.getElementById("test")
+
 
